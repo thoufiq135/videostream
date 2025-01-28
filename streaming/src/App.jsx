@@ -17,7 +17,7 @@ function App() {
     <h1>Songs</h1>
     {video?
     <>
-    <video src='http://localhost:7000/video' controls></video>
+    <video src='https://videostreamserver-ldsv.vercel.app/video' controls></video>
     <button onClick={play}>Back</button>
     </>:<>
     <div id='par' onClick={play}>
